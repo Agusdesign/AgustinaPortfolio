@@ -7,7 +7,7 @@
 }
 
 <!--Tipografia-->
-.h1 {
+h1 {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -63,6 +63,7 @@ h6 {
     top: 0;
     z-index: 1;
 }
+
 .nav-item{
     text-decoration: none;
     font-family: "Oswald", sans-serif;
@@ -72,6 +73,7 @@ h6 {
     font-size: 1rem; 
     color: #1a1a1a;
     padding-inline: 10px;
+    list-style-type: none;
 }
 .contact-btn {
     background-color:#FFF38B;
@@ -90,6 +92,24 @@ h6 {
     font-size: 1rem; 
     color: #1a1a1a;
 }
+
+.margin-section{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.hero {
+    height: 80vh;
+    background-image: url(/images/banner.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+
+}
+.headline{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+}
 .arrow-btn {
     margin-top: 100px;
     border: none;
@@ -104,16 +124,7 @@ h6 {
     height: 100%;
     object-fit: cover;
 }
-.margin-section{
-    margin-top: 90px;
-    margin-bottom: 90px;
-}
-.hero {
-    height: 80vh;
-    background-image: url(/images/banner.jpg);
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-}
+
 #projects {
     gap: 20px;
     text-align: center;
@@ -149,37 +160,64 @@ h6 {
     padding: 10px;
 }
 
-#contact {
-    margin: 60px;
-}
-#contactbox {
+
+.contactbox {
     background-color:#fdf5ae;
-    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap:10px;
+    margin-top:40px;
+    width: 1000px;
+}
+.form-top {
+    display:inline-flex;
+    justify-content: space-between;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    padding-bottom: 16px;
+    width: 45%;
 }
 
 input { 
     border: 0;
-    border-radius: 4px;
+    border-radius: 3px;
     height: 35px;
 }
 textarea { 
     border: 0;
-    border-radius: 4px;
-    
+    border-radius: 5px;
+}
+.form-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    padding-bottom: 10px;
+    gap:10px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1rem;
 }
 #submit {
     background-color:#CC8BFF;
     border: none;
+    border-radius: 3px;
     padding-top: 12px;
-    padding-bottom: 4px;
-    border-radius: 4px;
+    padding-bottom: 6px;
     width:100px;
 }
 
 .float {
     background-color:#FFF38B;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     padding-top: 10px;
     padding-inline:16px;
     padding-bottom: 6px;
@@ -191,7 +229,7 @@ textarea {
 }
 
 footer {
-    width: 100%;
+    padding: 10px;
     bottom: 0;
     background-color: #f8bbf5;
 }
