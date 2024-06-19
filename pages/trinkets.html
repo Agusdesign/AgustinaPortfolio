@@ -16,7 +16,7 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="/index.html">
-            <img src="/images/logoac.png" alt="Portfolio" width="130">
+            <img src="/images/logoac.png" alt="Portfolio" width="150">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,6 +39,7 @@
           </div>
         </div>
       </nav>
+      
       <section class="headline ms-5 mt-5">
             
         This week's trinkets
@@ -51,23 +52,40 @@
 
     <main >
         <section class="margin-section">
-          <div  class="carousel slide">
+          <div id="carousel-trinket" class="carousel slide container">
+           <div class="carousel-indicators ">
+               <button type="button" data-bs-target="#carousel-trinket" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#carousel-trinket" data-bs-slide-to="1" aria-label="Slide 2"></button>
+               <button type="button" data-bs-target="#carousel-trinket" data-bs-slide-to="2" aria-label="Slide 3"></button></div>
+         
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="/images/" class="d-block w-100" alt="...">
+                <img src="/images/slider1.png" class="d-block w-100" alt="motion">
+                <div class="carousel-caption d-none d-md-block w-20">
+                  <h5>This is Motion.zajno.com</h5>
+                  <p>The website explores the principles of motion design and animation, focusing on UI/UX applications.</p>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="/images/slider2.png" class="d-block w-100" alt="motion">
+                <div class="carousel-caption d-none d-md-block w-20">
+                  <h5>Explore the motion</h5>
+                  <p>It provides detailed examples and explanations of techniques like easing, offset, delay, fade-in, fade-out, transformation, masking, dimension, parallax, and zoom.</p>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="/images/slider3.png" class="d-block w-100" alt="motion">
+                <div class="carousel-caption d-none d-md-block w-20">
+                  <h5>Level up your motion skills</h5>
+                  <p>The site aims to show how these techniques enhance user experience, making interfaces more engaging and interactive.
+                  Visit the website</p> <a class="nav-linkbtn" href="https://motion.zajno.com/" target="_blank">Motion.zajno.com</a></div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-trinket" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-trinket" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
@@ -112,7 +130,7 @@
           </div>
         </div>
       </nav>
-      <a href="/pages/contact.html"><button class="float"><h5>Have any questions?</h5></button></a>
+      <a href="/pages/contact.html"><button class="float"><h3>Have any questions?</h3></button></a>
     </footer>
 
 
