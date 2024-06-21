@@ -98,11 +98,12 @@ h6 {
     margin-bottom: 90px;
 }
 .hero {
-    height: 80vh;
-    background-image: url(/images/banner.jpg);
+    height: 70vh;
+    background-image: url(/images/banner2.png);
     background-attachment:fixed;
     background-repeat: no-repeat;
-
+    background-size: contain;
+   
 }
 .headline{
     font-family: "Oswald", sans-serif;
@@ -128,21 +129,19 @@ h6 {
 #projects {
     gap: 20px;
     text-align: center;
-    flex:1;
+   
 }
-#projects :hover {
-    flex:2;
-}
+
 #card {
     background-color:rgb(212, 213, 213);
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column ;
     gap:8px;
     cursor: pointer;
+   justify-content: space-around;
 }
-
 .card-link {
     color: #1a1a1a;
     text-decoration: none;
@@ -154,7 +153,6 @@ h6 {
     text-align: center;
     text-wrap:balance;
 }
-
 #courses img {
     width: 70px;
     padding: 10px;
@@ -214,17 +212,19 @@ textarea {
     width:100px;
 }
 #carousel-trinket {
+    width: 100vh;
     background-color:#CC8BFF;
-    border-radius: 4px;
-    padding: 20px;
+    border-radius: 6px;
+    padding: 40px;
 }
 .carousel-caption {
     
     background-color: #1a1a1a;
 }
+.carousel-link{
+    text-decoration: none;
+    color: #f8bbf5;
 
-.carousel-item img {
-    width: 70%;
 }
 #profile {
     width: 40%;
