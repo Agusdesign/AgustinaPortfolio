@@ -100,10 +100,11 @@ h6 {
 }
 .hero {
     height: 70vh;
-    background-image: url(../images/banner.jpg);
+    background-image: url(../images/banner2.png);
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-bottom: 50px;
    
 }
 .headline{
