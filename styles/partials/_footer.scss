@@ -1,0 +1,19 @@
+footer {
+    padding: 10px;
+    bottom: 0;
+    background-color: $tertiaryColor;
+
+    .float {
+        background-color: $mainColor;
+        border: none;
+        border-radius: 6px;
+        padding-top: 10px;
+        padding-inline:16px;
+        padding-bottom: 6px;
+        position: fixed;
+        bottom: 40px;
+        right: 10px;
+        text-decoration: none;
+        color: $blackColor;
+    }
+}

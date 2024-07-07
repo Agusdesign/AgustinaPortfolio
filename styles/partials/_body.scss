@@ -1,0 +1,38 @@
+
+#projects {
+    gap: 20px;
+    text-align: center;
+
+    #card {
+        background-color:$mainColor;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column ;
+        gap:8px;
+        cursor: pointer;
+        justify-content: space-around;
+
+        a {
+            color: $blackColor;
+            text-decoration: none;
+        }
+    }
+}
+
+.margin-section{
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+    #courses { 
+        padding: 10px;
+        text-align: center;
+        text-wrap:balance;
+
+        img {
+            width: 70px;
+            padding: 10px;
+        }
+    }
+    
+}

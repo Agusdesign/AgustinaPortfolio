@@ -1,0 +1,17 @@
+
+#carousel-trinket {
+    width: 300vh;
+    background-color:$secondaryColor;
+    border-radius: 6px;
+    padding: 40px;
+
+    .carousel-caption {
+        background-color: $blackColor;
+
+        a {
+            text-decoration: none;
+            color: $tertiaryColor;
+        }
+    }
+}
+

@@ -6,56 +6,6 @@
     box-sizing: border-box; 
 }
 
-<!--Tipografia-->
-h1 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 4rem;
-}
-h2 {
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 2rem;
-} 
-h3 {
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.25rem;
-}
-p {
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 1rem;
-}
-h4 {
-    text-decoration: none;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1rem; 
-}
-h5 {
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 0.75rem;
-}
-h6 {
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 0.25rem;
-}
 
 
 .navbar {
@@ -131,7 +81,6 @@ h6 {
 #projects {
     gap: 20px;
     text-align: center;
-   
 }
 
 #card {
@@ -142,7 +91,7 @@ h6 {
     flex-direction: column ;
     gap:8px;
     cursor: pointer;
-   justify-content: space-around;
+    justify-content: space-around;
 }
 .card-link {
     color: #1a1a1a;
@@ -205,16 +154,22 @@ textarea {
     font-style: normal;
     font-size: 1rem;
 }
-#submit {
-    background-color:#CC8BFF;
+.btn-submit{
+    background:#CC8BFF;
     border: none;
     border-radius: 3px;
-    padding-top: 12px;
-    padding-bottom: 6px;
+    height: 50px;
+    padding-top: 8px;
     width:100px;
+    transition: background 1s, color 2s;
+}
+.btn-submit :hover{
+    background: #1a1a1a;
+    color: #CC8BFF;
+
 }
 #carousel-trinket {
-    width: 100vh;
+    width: 300vh;
     background-color:#CC8BFF;
     border-radius: 6px;
     padding: 40px;
@@ -234,6 +189,10 @@ textarea {
 }
 #interests p {
     text-align: right;
+}
+
+.accordion-img {
+    padding: 20px;
 }
 .float {
     background-color:#FFF38B;

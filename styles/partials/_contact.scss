@@ -1,0 +1,60 @@
+
+.contactbox {
+    background-color:$mainColor;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap:10px;
+    margin-top:40px;
+    width: 1000px;
+
+    .form-top {
+        display:inline-flex;
+        justify-content: space-between;
+
+        .input {
+            display: flex;
+            flex-direction: column;
+            justify-items: start;
+            padding-bottom: 16px;
+            width: 45%;
+        }
+        
+        input { 
+            border: 0;
+            border-radius: 3px;
+            height: 35px;
+        }
+    }  
+  
+    .form-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-items: start;
+        padding-bottom: 10px;
+        gap:10px;
+
+        textarea { 
+            border: 0;
+            border-radius: 5px;
+        }
+    }
+    
+    .btn-submit{
+        background:$secondaryColor;
+        border: none;
+        border-radius: 3px;
+        height: 50px;
+        padding-top: 8px;
+        width:100px;
+        transition: background 1s, color 2s;
+
+        & :hover{
+            background: $blackColor;
+            color: $secondaryColor;
+        }
+    }
+   
+}

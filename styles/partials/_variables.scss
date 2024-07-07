@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap');
+
+
+$fontOswald: "Oswald", sans-serif, 500, normal;
+$fontOutfit: "Outfit", sans-serif, 500;
+
+$h1: $fontOswald, 6rem;
+
+$h2: $fontOutfit, 2rem;
+
+$h3: $fontOutfit, 1.25rem;
+
+$p: $fontOutfit, 200, 1rem;
+
+$h4: $fontOswald, 1rem;
+
+$h5: $fontOutfit, 0.75rem;
+
+$h6: $fontOutfit 0.25rem;
+
+$mainColor: #FFF38B;
+$secondaryColor: #CC8BFF;
+$tertiaryColor:#f8bbf5;
+$blackColor: #1a1a1a;
+$whiteColor:#f0f8ff;
