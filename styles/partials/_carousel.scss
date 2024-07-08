@@ -6,12 +6,17 @@
     padding: 40px;
 
     .carousel-caption {
-        background-color: $blackColor;
+        background-color: $mainColor;
+        color: $blackColor;
+        border-radius: 6px;
+        padding: 8px;
 
         a {
             text-decoration: none;
-            color: $tertiaryColor;
+            color: $blackColor;
         }
     }
+
+    
 }
 

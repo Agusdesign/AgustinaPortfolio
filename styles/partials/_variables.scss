@@ -4,7 +4,12 @@
 $fontOswald: "Oswald", sans-serif, 500, normal;
 $fontOutfit: "Outfit", sans-serif, 500;
 
-$h1: $fontOswald, 6rem;
+$h1: $fontOswald, 8rem;
+
+h1 {
+    font-family:  "Oswald", sans-serif, 500, normal;
+    font-size: 6rem;
+}
 
 $h2: $fontOutfit, 2rem;
 

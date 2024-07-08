@@ -3,10 +3,8 @@
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: $whiteColor;
-    width: 20px;
 
-    li {
+    .nav-item {
         text-decoration: none;
         font-family: $h4;
         color: $blackColor;
@@ -47,7 +45,7 @@
     margin-bottom: 50px;
    
 
-    .headline{
+    .headline {
         font-family: $h1
     }
 
