@@ -1,15 +1,11 @@
 
 .contactbox {
+
     background-color:$mainColor;
-    display: flex;
-    flex-direction: column;
-    padding-inline: 60px;
+    padding-inline: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    gap:10px;
-    margin-top:40px;
-    width: 1000px;
-
+      
     .form-top {
         display:inline-flex;
         justify-content: space-between;
@@ -17,22 +13,19 @@
         .input {
             display: flex;
             flex-direction: column;
-            justify-items: start;
-            padding-bottom: 16px;
             width: 45%;
         }
         
         input { 
             border: 0;
-            border-radius: 3px;
             height: 35px;
+            border-radius: 4px;
         }
     }  
   
     .form-bottom {
         display: flex;
         flex-direction: column;
-        justify-items: start;
         padding-bottom: 10px;
         gap:10px;
 
@@ -45,16 +38,40 @@
     .btn-submit{
         background:$secondaryColor;
         border: none;
-        border-radius: 3px;
+        align-self: end;
         height: 50px;
         padding-top: 8px;
-        width:100px;
-        transition: background 1s, color 2s;
+        width:120px;
+        transition: background-color 300ms, color 400ms ease-in;
 
-        & :hover{
+        &:hover{
             background: $blackColor;
             color: $secondaryColor;
         }
     }
    
+}
+
+.social-link{
+
+    li {
+        transition: background-color 200ms, padding-inline-end 300ms ease-in;
+        border-radius: 40px;
+
+        &:hover {
+            background-color: $tertiaryColor;
+            width: fit-content;
+            padding-inline-end: 16px;
+        }
+    }
+}
+
+.contact-info {
+    img {
+        animation-name: rotacion;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        animation-timing-function: ease-in-out;
+    }
 }

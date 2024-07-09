@@ -4,27 +4,50 @@
 $fontOswald: "Oswald", sans-serif, 500, normal;
 $fontOutfit: "Outfit", sans-serif, 500;
 
-$h1: $fontOswald, 8rem;
-
-h1 {
-    font-family:  "Oswald", sans-serif, 500, normal;
-    font-size: 6rem;
-}
+$h1: $fontOswald, 6rem;
 
 $h2: $fontOutfit, 2rem;
 
 $h3: $fontOutfit, 1.25rem;
 
-$p: $fontOutfit, 200, 1rem;
-
 $h4: $fontOswald, 1rem;
 
 $h5: $fontOutfit, 0.75rem;
 
-$h6: $fontOutfit 0.25rem;
+$h6: $fontOutfit, 0.25rem;
+
+$p: $fontOutfit, 200, 1rem; 
+
 
 $mainColor: #FFF38B;
 $secondaryColor: #CC8BFF;
 $tertiaryColor:#f8bbf5;
 $blackColor: #1a1a1a;
 $whiteColor:#f0f8ff;
+
+
+@keyframes rotacion {
+    100% {
+        transform: rotate(20deg);
+    }
+   }
+
+
+@-webkit-keyframes wobble-hor-bottom {
+    0%,100%{-webkit-transform:translateX(0);transform:translateX(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%}15%{-webkit-transform:translateX(-30px) rotate(-6deg);transform:translateX(-30px) rotate(-6deg)}30%{-webkit-transform:translateX(15px) rotate(6deg);transform:translateX(15px) rotate(6deg)}45%{-webkit-transform:translateX(-15px) rotate(-3.6deg);transform:translateX(-15px) rotate(-3.6deg)}60%{-webkit-transform:translateX(9px) rotate(2.4deg);transform:translateX(9px) rotate(2.4deg)}75%{-webkit-transform:translateX(-6px) rotate(-1.2deg);transform:translateX(-6px) rotate(-1.2deg)}
+   }
+   @keyframes wobble-hor-bottom {
+    0%,100%
+    {-webkit-transform:translateX(0);transform:translateX(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%}
+    15%{-webkit-transform:translateX(-30px) rotate(-6deg);transform:translateX(-30px) rotate(-6deg)}
+    30%{-webkit-transform:translateX(15px) rotate(6deg);transform:translateX(15px) rotate(6deg)}
+    45%{-webkit-transform:translateX(-15px) rotate(-3.6deg);transform:translateX(-15px) rotate(-3.6deg)}
+    60%{-webkit-transform:translateX(9px) rotate(2.4deg);transform:translateX(9px) rotate(2.4deg)}
+    75%{-webkit-transform:translateX(-6px) rotate(-1.2deg);transform:translateX(-6px) rotate(-1.2deg)}
+   }
+
+   @keyframes pulsate-fwd {
+    0%{transform:scale(1)}
+    50%{transform:scale(1.1)}
+    100%{transform:scale(1)}
+   }

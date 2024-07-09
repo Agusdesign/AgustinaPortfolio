@@ -11,9 +11,8 @@
         border-radius: 6px;
         padding: 8px;
 
-        a {
-            text-decoration: none;
-            color: $blackColor;
+        .carousel-link {
+            color: $secondaryColor;
         }
     }
 

@@ -23,6 +23,11 @@
                 padding-inline: 20px;
                 padding-top: 4px;
                 padding-bottom: 6px;
+                
+                &:hover {
+                    animation:pulsate-fwd .5s ease-in-out 2 both;
+                    animation-direction: alternate-reverse;
+                }
             }
            
         }
@@ -34,29 +39,27 @@
 
 }
 
-
-
 .hero {
     height: 80vh;
     background-image: url(../images/banner2.png);
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 50px;
-   
-
-    .headline {
-        font-family: $h1
-    }
 
     .arrow-btn {
-        margin-top: 100px;
+        margin-top: 80px;
         border: none;
         border-radius: 50%;
         width: 70px;
         height: 70px;
         display: flex;
         padding: 10px;
+        transition: transform 250ms ease-out;
+
+         &:hover {
+            transform: scale(1.1);
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 20px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        }
 
         img {
             width: 100%;

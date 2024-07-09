@@ -1,8 +1,9 @@
-
-#profile {
-    width: 40%;
-    height: max-content;
-}
-#interests p {
-    text-align: right;
+.img-profile {
+    img { 
+        animation-name: rotacion;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        animation-timing-function: ease-in-out;
+    }
 }
