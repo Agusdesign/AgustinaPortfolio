@@ -1,92 +1,102 @@
-
 #projects {
-    text-align: center;
+  text-align: center;
 
-    .card {
-        background-color:rgb(255, 249, 214);
-        padding: 20px;
-        border-radius: 10px;
-        border: 0;
-        height: 50vh;
-        cursor: pointer;
-        transition: all 400ms;
-        
-        &:hover { 
-            transform: scale(1.02) translateY(-6px)
-            translateX(-6px);
-            box-shadow: rgba(0, 0, 0, 0.25) 2.95px 1.95px 4.6px;
-            background-color: $mainColor;
-        }
-        
-        .card-link {
-            color: $blackColor;
-            text-decoration: none;
-            transition: all 250ms;
+  .card {
+    background-color: rgb(255, 249, 214);
+    padding: 20px;
+    border-radius: 10px;
+    border: 0;
+    height: 50vh;
+    cursor: pointer;
+    transition: all 400ms;
 
-            &:hover {
-                color: $secondaryColor;
-            }
-        }
-
-        img {
-            align-self: center;
-            width: 400px;
-            padding: 10px;
-        }
+    &:hover {
+      transform: scale(1.02) translateY(-6px) translateX(-6px);
+      box-shadow: rgba(0, 0, 0, 0.25) 2.95px 1.95px 4.6px;
+      background-color: $mainColor;
     }
+
+    .card-link {
+      color: $blackColor;
+      text-decoration: none;
+      transition: all 250ms;
+
+      &:hover {
+        color: $secondaryColor;
+      }
+    }
+
+    img {
+      align-self: center;
+      width: 400px;
+      padding: 10px;
+    }
+  }
 }
 
-.margin-section{
-    margin-top: 90px;
-    margin-bottom: 90px;
+.margin-section {
+  margin-top: 90px;
+  margin-bottom: 90px;
 
-    #courses { 
-        padding: 10px;
-        text-align: center;
-        text-wrap:balance;
+  #courses {
+    padding: 10px;
+    text-align: center;
+    text-wrap: balance;
 
-        img {
-            width: 70px;
-            padding: 10px;
-        }
+    img {
+      width: 70px;
+      padding: 10px;
     }
-    
+  }
 }
 
 .bottom {
-    background-color: $mainColor;
-    width: 100%;
-    height: 30vh;
+  background-color: $mainColor;
+  width: 100%;
+  height: 30vh;
+  padding: 30px;
+
+  .bottom-content {
     text-align: center;
-    padding: 30px;
-    justify-items: space-around;
+    align-content: center;
 
-    .cta{
-        border:0;
-        background-color: $secondaryColor;
-        height: 50px;
-        padding-top: 8px;
-        width:160px;
-        transition: background-color 300ms, color 400ms ease-in;
-        -webkit-animation:wobble-hor-bottom .8s both;animation:wobble-hor-bottom .8s both;
-        animation-delay: 8s;
-        animation-iteration-count: 2;
-        animation-delay: 2s;
+    .cta {
+      border: 0;
+      background-color: $secondaryColor;
+      height: 50px;
+      padding-top: 8px;
+      width: 160px;
+      transition: background-color 300ms, color 400ms ease-in;
+      -webkit-animation: wobble-hor-bottom 0.8s both;
+      animation: wobble-hor-bottom 0.8s both;
+      animation-delay: 8s;
+      animation-iteration-count: 2;
+      animation-delay: 2s;
 
-        &:hover{
-            background: $blackColor;
+      &:hover {
+        background: $blackColor;
+      }
+
+      a {
+        text-decoration: none;
+        color: $blackColor;
+
+        &:hover {
+          color: $secondaryColor;
         }
-        
-        a{
-            text-decoration: none;
-            color: $blackColor;
-
-            &:hover {
-                color: $secondaryColor;
-            }
-        }
+      }
     }
+  }
+
+  .img {
+    justify-content: space-between;
+    img {
+      width: 10%;
+      animation-name: rotacion;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+      animation-timing-function: ease-in-out;
+    }
+  }
 }
-
-
-
