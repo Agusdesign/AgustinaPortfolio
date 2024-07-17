@@ -3,6 +3,11 @@ footer {
     bottom: 0;
     background-color: $tertiaryColor;
 
+    .nav-link{
+        font-family: "Oswald";
+        font-size:  1rem ;
+    }
+
     .float {
         background-color: $mainColor;
         border: none;

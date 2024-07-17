@@ -6,14 +6,14 @@
 
     .nav-item {
         text-decoration: none;
-        font-family: $h4;
         color: $blackColor;
         padding-inline: 10px;
         list-style-type: none;
+        font-family: "Oswald";
+        font-size:  1rem ;
 
         .nav-linkbtn {
             text-decoration: none;
-            font-family:$h4;
             color:$blackColor;
     
             .contact-btn {
@@ -21,8 +21,7 @@
                 border: none;
                 border-radius: 20px;
                 padding-inline: 20px;
-                padding-top: 4px;
-                padding-bottom: 6px;
+                padding-block: 4px;
                 
                 &:hover {
                     animation:pulsate-fwd .5s ease-in-out 2 both;

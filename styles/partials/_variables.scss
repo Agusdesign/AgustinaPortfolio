@@ -4,19 +4,36 @@
 $fontOswald: "Oswald", sans-serif, 500, normal;
 $fontOutfit: "Outfit", sans-serif, 500;
 
-$h1: $fontOswald, 6rem;
+h1{ font-family: "Oswald";
+    font-size:  5rem;
+}
 
-$h2: $fontOutfit, 2rem;
+h2{
+    font-family: "Outfit";
+    font-size: 2rem;
+}
 
-$h3: $fontOutfit, 1.25rem;
+h3{
+    font-family: "Outfit"; font-size: 1.50rem;
+} 
 
-$h4: $fontOswald, 1rem;
+h4{
+    font-family: "Oswald";
+    font-size:  1rem;
+} 
 
-$h5: $fontOutfit, 0.75rem;
+h5{
+    font-family: "Outfit"; font-size: 0.75rem;
+} 
 
-$h6: $fontOutfit, 0.25rem;
+h6{
+    font-family: "Outfit"; font-size: 0.25rem;
+} 
 
-$p: $fontOutfit, 200, 1rem; 
+p{
+    font-family: "Outfit";
+    font-weight: 200; font-size: 1rem;
+} 
 
 
 $mainColor: #FFF38B;

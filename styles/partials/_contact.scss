@@ -53,7 +53,10 @@
 }
 
 .social-link{
-
+    font-family: "Outfit"; 
+    font-size: 1rem;
+    text-wrap: nowrap;
+    
     li {
         transition: background-color 200ms, padding-inline-end 300ms ease-in;
         border-radius: 40px;
